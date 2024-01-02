@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+<h1 align="center" font-weight: bold; "> 🖥️ WhatsApp Web UI Clone 💻</h1>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Project was developed to practice using API and practice using TailwindCSS
 
-## Recommended IDE Setup
+API that was used:
+  - To generate random users, we used: [RandomUser API](https://randomuser.me/)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Technologies used:
+
+  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+    
+## Chat
+![image](https://github.com/titiushadow/WhatsApp-clone/assets/63453751/cae21c9b-aba7-4b8a-8e6f-d053a7da0c10)
+
+## How to install WhatsApp Web UI Clone 🚀
+
+To install WhatsApp Web UI Clone, follow these steps:
+
+Windows:
+```
+1️⃣ Go to the desktop
+2️⃣ Open the terminal (cmd or git bash)
+3️⃣ git clone https://github.com/titiushadow/WhatsApp-clone.git
+```
+To open this project on the web, follow these steps:
+```
+1️⃣ Open the folder in visual studio code
+2️⃣ Run the following command: npm install
+3️⃣ After the second step is executed, run npm run dev
+```
+
+
+
