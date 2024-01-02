@@ -5,15 +5,17 @@
             <!-- Header -->
             <div class="bg-[#F0F0F0] w-full flex justify-between items-center px-3 py-2">
                 <img class="rounded-full ml-1 w-10" src="https://random.imagecdn.app/100/100" alt="">
-                <div class="flex items-center justify-center">
-                    <AccountGroupIcon fillColor="#515151" class="mr-6" />
+                <div class="flex items-center justify-center gap-4">
+                    <AccountGroupIcon fillColor="#515151" class="cursor-pointer" />
+                    <CircleSlice6 fillColor="#515151" class="cursor-pointer" />
+                    <Newspaper fillColor="#515151" class="cursor-pointer" />
                     <DotsVertical fillColor="#515151" class="cursor-pointer" />
                 </div>
             </div>
 
             <!-- Serch field -->
-            <div id="Search" class="bg-white w-full px-2 border-b shadow-sm">
-                <div class="px-1 m-2 bg-[#F0F0F0] flex items-center justify-center rounded-md">
+            <div id="Search" class="bg-white w-full px-2 py-2 border-b shadow-sm">
+                <div class="px-1 bg-[#F0F0F0] flex items-center justify-center rounded-md">
                     <Magnify fillColor="#515151" :size="18" class="ml-2" />
                     <input 
                     class="
@@ -73,6 +75,8 @@
     import AccountGroupIcon from 'vue-material-design-icons/AccountGroup.vue'
     import DotsVertical from 'vue-material-design-icons/DotsVertical.vue'
     import Magnify from 'vue-material-design-icons/Magnify.vue'
+    import Newspaper from 'vue-material-design-icons/Newspaper.vue'
+    import CircleSlice6 from 'vue-material-design-icons/CircleSlice6.vue'
     import { ref } from 'vue'
 
     let open = ref(true)

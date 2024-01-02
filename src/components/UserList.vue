@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ul class="flex gap-4 flex-col w-[405px]">
+        <ul class="flex gap-4 flex-col w-[405px] ">
             <li v-for="user in users" :key="user.login.uuid" class="flex items-center border-b w-calc[100%-80px] float-right">
                 <img class="rounded-full ml-1 w-10" src="https://random.imagecdn.app/500/500" alt="">
 
@@ -37,7 +37,7 @@ export default {
     methods: {
         async fetchUsers() {
             try {
-                const response = await this.$axios.get('https://randomuser.me/api/?results=13');
+                const response = await this.$axios.get('https://randomuser.me/api/?results=16');
                 this.users = response.data.results;
             } catch (error) {
                 console.error('Erro ao buscar usuários:', error);
