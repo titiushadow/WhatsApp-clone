@@ -37,7 +37,7 @@ export default {
     methods: {
         async fetchUsers() {
             try {
-                const response = await this.$axios.get('https://randomuser.me/api/?results=5');
+                const response = await this.$axios.get('https://randomuser.me/api/?results=13');
                 this.users = response.data.results;
             } catch (error) {
                 console.error('Erro ao buscar usuários:', error);
